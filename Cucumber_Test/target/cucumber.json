@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "TestCase1: Validate number 10 is exactly divisible by 3.",
+        "description": "",
+        "id": ";testcase1:-validate-number-10-is-exactly-divisible-by-3.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 231765000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "values 10 and 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 7
+                },
+                {
+                  "val": "3",
+                  "offset": 14
+                }
+              ],
+              "location": "Test.values_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 440500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "calculate values",
+            "match": {
+              "location": "Test.calculate_values()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003c0\u003e but was:\u003c1\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:234)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:241)\r\n\tat stepdefinations.Test.result(Test.java:40)\r\n\tat ✽.result(src/test/java/features/Test1.feature:8)\r\n",
+              "duration": 4577900,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "result",
+            "match": {
+              "location": "Test.result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Test1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "TestCase2: Comparison of two Strings",
+        "description": "",
+        "id": ";testcase2:-comparison-of-two-strings",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3226900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "String values \"Test1\" and \"Test2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test1",
+                  "offset": 15
+                },
+                {
+                  "val": "Test2",
+                  "offset": 27
+                }
+              ],
+              "location": "Test.string_values_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cTest[1]\u003e but was:\u003cTest[2]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepdefinations.Test.compare_of_two_strings(Test.java:24)\r\n\tat ✽.compare of two strings(src/test/java/features/Test2.feature:7)\r\n",
+              "duration": 1617500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "compare of two strings",
+            "match": {
+              "location": "Test.compare_of_two_strings()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Test2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "TestCase3: Validate number 10 is exactly divisible by 2.",
+        "description": "",
+        "id": ";testcase3:-validate-number-10-is-exactly-divisible-by-2.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 399900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "values 10 and 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 7
+                },
+                {
+                  "val": "2",
+                  "offset": 14
+                }
+              ],
+              "location": "Test.values_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 292700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "calculate values",
+            "match": {
+              "location": "Test.calculate_values()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "result",
+            "match": {
+              "location": "Test.result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Test3.feature",
+    "tags": []
+  }
+]

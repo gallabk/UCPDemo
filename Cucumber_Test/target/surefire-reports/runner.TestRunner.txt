@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.375 sec <<< FAILURE! - in runner.TestRunner
+TestCase1: Validate number 10 is exactly divisible by 3.(EMPTY_NAME)  Time elapsed: 0.271 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<0> but was:<1>
+
+TestCase2: Comparison of two Strings(EMPTY_NAME)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Test[1]> but was:<Test[2]>
+
